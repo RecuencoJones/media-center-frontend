@@ -4,7 +4,7 @@ const states = [
   MainStateConfig
 ];
 
-class Config {
+class Routes {
   static $inject = ['$stateProvider', '$urlRouterProvider'];
 
   constructor($stateProvider: ng.ui.IStateProvider,
@@ -18,5 +18,5 @@ class Config {
 }
 
 export function RoutesConfig(app: ng.IModule) {
-  app.config(Config);
+  app.config(Routes);
 };

@@ -41,7 +41,7 @@ You will just need to run `npm i` and both packages and typings will be installe
 
 A note on dependencies and devDependecies:
 Please, keep app packages in dependecies and all other just required for building,
-coding, reunning tests, etc in devDependencies.
+coding, running tests, etc in devDependencies.
 This applies to TS typings as well.
 
 If possible, TS typings from `dt` are preferred.

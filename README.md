@@ -1,23 +1,23 @@
 # media-center-frontend
 
-Repository for our custom media center GUI.
+Repository for our custom media center GUI. Cool stuff here.
 
 # Project Info
 
 We have always loved Angular 1 ♥ and nowadays it is getting more popular to use
 Angular 2 with TypeScript and getting rid of huge, complex, error-prone builders
 like Grunt/Gulp due to their plugins not getting the best out of the tools they
-wrap. NPM scripts are a good nice option, but they are too complex to handle
+wrap. NPM scripts are a nice option, but they are too complex to maintain
 unless moved into their own scripts. Webpack is the ultimate building tool which
-allows for concat, minification, watcher along with its loaders which, all in all
-is similar to builder plugins empowered.
+allows for concat, minification, watcher along with its loaders which in the end
+are similar to builder plugins empowered.
 
 One of the coolest things in Webpack is the ability to combine some loaders that
 result in a single JavaScript file importing its own CSS, images, HTML templates
 and other stuff.
 
-Why not Angular 2? The question is why Angular 2. To us, Angular 1 does not lack
-anything, and you can perfectly create your own reusable component system based
+Why not Angular 2? The question is why Angular 2. To us, Angular 1 lacks
+nothing. You can perfectly create your own reusable component system based
 on directives with isolated scope and minimum control.
 
 This is it, the best structure I have found to handle Angular 1 in TypeScript and

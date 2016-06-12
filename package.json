@@ -40,9 +40,12 @@
   "scripts": {
     "postinstall": "./node_modules/.bin/typings install",
     "build": "./node_modules/.bin/webpack",
-    "prod": "./node_modules/.bin/webpack -p",
+    "build:min": "./node_modules/.bin/webpack -p",
     "watch": "./node_modules/.bin/webpack -w",
-    "test": "./node_modules/.bin/karma start test/config/karma.unit.conf.js",
+    "test": "npm run test:unit",
+    "test:unit": "./node_modules/.bin/karma start test/config/karma.unit.conf.js",
+    "test:cov": "./node_modules/.bin/karma start test/config/karma.cov.conf.js",
+    "test:func": "echo 'No functional test yet'",
     "serve": "./node_modules/.bin/http-server . -p 9000"
   }
 }

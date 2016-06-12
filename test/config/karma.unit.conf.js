@@ -7,7 +7,7 @@ module.exports = function(config) {
   baseConfig(config);
 
   config.set({
-    reporters: ['dots', 'junit'],
+    reporters: ['specs', 'junit'],
 
     junitReporter: {
       outputFile: 'test/results/unit/test-results.xml'

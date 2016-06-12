@@ -1,5 +1,5 @@
 import {RoutesConfig} from './config/routes.config';
-import {CoreComponent} from './components/core/core.directive';
+import {CoreComponent} from './components/core/core.comp';
 import {MainCtrl} from './states/main/main.ctrl';
 
 const modules = [

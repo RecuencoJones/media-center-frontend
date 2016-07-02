@@ -1,13 +1,11 @@
-// Karma configuration
-// http://karma-runner.github.io/0.12/config/configuration-file.html
-
 var baseConfig = require('../config/karma.conf');
 
+// Karma configuration
 module.exports = function(config) {
   baseConfig(config);
 
   config.set({
-    reporters: ['specs', 'junit'],
+    reporters: ['spec'],
 
     junitReporter: {
       outputFile: 'test/results/unit/test-results.xml'

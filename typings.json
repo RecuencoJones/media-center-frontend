@@ -1,14 +1,16 @@
 {
   "globalDependencies": {
-    "angular": "registry:dt/angular#1.5.0+20160602160139",
+    "angular": "registry:dt/angular#1.5.0+20160627105203",
+    "angular-mocks": "registry:dt/angular-mocks#1.5.0+20160608104721",
     "angular-ui-router": "registry:dt/angular-ui-router#1.1.5+20160521151413",
-    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
-    "lodash": "registry:dt/lodash#3.10.0+20160330154726",
+    "jquery": "registry:dt/jquery#1.10.0+20160628074423",
+    "lodash": "registry:dt/lodash#3.10.0+20160619033623",
     "require": "registry:dt/require#2.1.20+20160316155526"
   },
   "globalDevDependencies": {
     "chai": "registry:dt/chai#3.4.0+20160317120654",
     "mocha": "registry:dt/mocha#2.2.5+20160317120654",
-    "sinon": "registry:dt/sinon#1.16.0+20160517064723"
+    "sinon": "registry:dt/sinon#1.16.0+20160517064723",
+    "sinon-chai": "registry:dt/sinon-chai#2.7.0+20160317120654"
   }
 }

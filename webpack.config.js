@@ -4,6 +4,11 @@ module.exports = {
     path: './dist/',
     filename: 'app.js'
   },
+  externals: {
+    'lodash': '_',
+    'jquery': '$',
+    'angular': 'angular'
+  },
   module: {
     loaders: [
       {
@@ -25,6 +30,6 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.ts', '.tsx', '.scss']
+    extensions: ['.ts', '.js', '.tsx', '.jsx', '']
   }
 };

@@ -8,4 +8,4 @@ export function MainStateConfig($stateProvider: ng.ui.IStateProvider) {
     controller: 'MainCtrl',
     template: template
   });
-};
+}

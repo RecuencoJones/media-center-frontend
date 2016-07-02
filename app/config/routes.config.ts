@@ -19,4 +19,4 @@ class Routes {
 
 export function RoutesConfig(app: ng.IModule) {
   app.config(Routes);
-};
+}

@@ -8,9 +8,10 @@ const modules = [
   MainCtrl
 ];
 
-const app = angular.module('media-center-frontend', ['ui.router']);
+export const moduleName = 'media-center-frontend';
+
+const app = angular.module(moduleName, ['ui.router']);
 
 modules.forEach((module: Function) => {
   module(app);
 });
-

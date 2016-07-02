@@ -1,4 +1,4 @@
-interface IMainScope extends ng.IScope {
+export interface IMainScope extends ng.IScope {
   message: string;
 }
 
@@ -12,4 +12,4 @@ class Main {
 
 export function MainCtrl(app: ng.IModule) {
   app.controller('MainCtrl', Main);
-};
+}

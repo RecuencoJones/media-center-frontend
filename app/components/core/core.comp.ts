@@ -20,4 +20,4 @@ function CoreDirective(): ng.IDirective {
 
 export function CoreComponent(app: ng.IModule) {
   app.directive('core', CoreDirective);
-};
+}

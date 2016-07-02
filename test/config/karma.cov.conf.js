@@ -1,13 +1,12 @@
-// Karma coverage configuration
-
 var baseConfig = require('../config/karma.conf');
 
+// Karma coverage configuration
 module.exports = function(config) {
   baseConfig(config);
 
   config.set({
     preprocessors: {
-      'app/**/*.ts+(x|)': ['webpack', 'coverage']
+      'test/**/*.ts': ['webpack', 'coverage']
     },
 
     reporters: ['dots', 'coverage'],
@@ -27,6 +26,6 @@ module.exports = function(config) {
       ]
     },
 
-    port: 8088
+    port: 9877
   });
 };

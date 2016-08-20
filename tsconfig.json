@@ -3,7 +3,8 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
-    "sourceMap": true
+    "sourceMap": false,
+    "inlineSourceMap": true
   },
   "exclude": [
     "node_modules"

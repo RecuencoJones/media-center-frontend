@@ -1,4 +1,4 @@
-var baseConfig = require('../config/karma.conf');
+var baseConfig = require('./karma.conf');
 
 // Karma coverage configuration
 module.exports = function(config) {
@@ -6,26 +6,26 @@ module.exports = function(config) {
 
   config.set({
     preprocessors: {
-      'test/**/*.ts': ['webpack', 'coverage']
+      'test/**/*.spec.ts': ['webpack', 'coverage']
     },
 
     reporters: ['dots', 'coverage'],
 
     coverageReporter: {
-      dir: 'test/results/coverage',
+      dir: 'test/results/coverage/karma-coverage',
       reporters: [
         {
-          type: 'text'
-        }, {
           type: 'html',
           subdir: 'html'
+        }, {
+          type: 'json',
+          subdir: 'json',
+          file: 'coverage.json'
         }, {
           type: 'lcov',
           subdir: 'lcov'
         }
       ]
-    },
-
-    port: 9877
+    }
   });
 };

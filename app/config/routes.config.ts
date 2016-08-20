@@ -5,9 +5,9 @@ const states = [
 ];
 
 class Routes {
-  static $inject = ['$stateProvider', '$urlRouterProvider'];
+  public static $inject = ['$stateProvider', '$urlRouterProvider'];
 
-  constructor($stateProvider: ng.ui.IStateProvider,
+  public constructor($stateProvider: ng.ui.IStateProvider,
       $urlRouterProvider: ng.ui.IUrlRouterProvider) {
     states.forEach((state: Function) => {
       state($stateProvider);

@@ -9,6 +9,7 @@ module.exports = {
     'jquery': '$',
     'angular': 'angular'
   },
+  devtool: 'inline-source-map',
   module: {
     loaders: [
       {

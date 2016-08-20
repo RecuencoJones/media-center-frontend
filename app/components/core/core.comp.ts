@@ -2,7 +2,7 @@ import './core.scss';
 
 const template: string = require('./core.tpl.html');
 
-interface ICoreScope extends ng.IScope {
+export interface ICoreScope extends ng.IScope {
   message: string;
 }
 
@@ -13,8 +13,7 @@ function CoreDirective(): ng.IDirective {
     scope: {
       message: '@'
     },
-    template: template,
-    link: (scope: ICoreScope) => {}
+    template: template
   };
 }
 

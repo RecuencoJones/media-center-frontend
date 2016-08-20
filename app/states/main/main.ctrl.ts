@@ -3,9 +3,9 @@ export interface IMainScope extends ng.IScope {
 }
 
 class Main {
-  static $inject = ['$scope'];
+  public static $inject = ['$scope'];
 
-  constructor($scope: IMainScope) {
+  public constructor($scope: IMainScope) {
     $scope.message = 'Media Center App';
   }
 }
